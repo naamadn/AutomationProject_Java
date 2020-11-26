@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+    <!-- API credentials -->
+    <user_API>admin</user_API>
+    <password_API>admin</password_API>
+
+    <!-- Platform -->
+    <PlatformName>Web</PlatformName>
+
+    <!-- Web -->
+
+    <Url>http://automationpractice.com/index.php</Url>
+    <BrowserName>Chrome</BrowserName>
+    <ImageRepo>./imageRepository/</ImageRepo>
+    <!-- API -->
+    <Url_API>http://localhost:3000</Url_API>
+
+    <!-- Mobile -->
+    <UDID>RF8N60HJTWL</UDID>
+    <APP_PACKAGE>com.experitest.ExperiBank</APP_PACKAGE>
+    <APP_ACTIVITY>.LoginActivity</APP_ACTIVITY>
+
+    <!--DB-->
+    <dbUrl>jdbc:mysql://remotemysql.com:3306/sQWeIs4tri</dbUrl>
+    <dbUser>sQWeIs4tri</dbUser>
+    <dbPassword>da6GCXbGNU</dbPassword>
+
+</Environment>
+
