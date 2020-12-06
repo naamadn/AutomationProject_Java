@@ -23,7 +23,7 @@ public class grafanaAPI extends commonOps
     @Description("Test description: Create New User To Grafana")
     public void test02_createNewUser()
     {
-        apiFlows.postUser("User2", "User2@user.com", "User2", "1234");
+        apiFlows.postUser("User3", "User3@user.com", "User2", "1234");
         verifications.text(apiFlows.getUserProperty("[0].name"), "User2");
     }
 
